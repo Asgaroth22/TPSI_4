@@ -16,6 +16,14 @@
         <servlet-name>PersonListServlet</servlet-name>
         <url-pattern>/personList</url-pattern>
     </servlet-mapping>
+    <servlet>
+    <servlet-name>StudentListServlet</servlet-name>
+    <servlet-class>tpsi.web.StudentListServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StudentListServlet</servlet-name>
+        <url-pattern>/studentList</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
